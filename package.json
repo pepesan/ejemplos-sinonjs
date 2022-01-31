@@ -1,0 +1,19 @@
+{
+  "name": "ejemplos-sinonjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "sinon"
+  },
+  "author": "David Vaquero <pepesan@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0",
+    "sinon": "^13.0.0"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
