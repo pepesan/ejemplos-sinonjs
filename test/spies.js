@@ -28,22 +28,4 @@ console.log(setNameSpy.callCount); //output: 1
 //Important final step - remove the spy
 setNameSpy.restore();
 
-function myFunction(condition, callback){
-    if(condition){
-        callback();
-    }
-}
-var chai = require('chai');
-var assert = chai.assert;
-
-describe('myFunction', function() {
-    it('should call the callback function', function() {
-        var callback = sinon.spy();
-
-        myFunction(true, callback);
-
-        assert(callback.calledOnce);
-        callback.restore();
-    });
-});
 
