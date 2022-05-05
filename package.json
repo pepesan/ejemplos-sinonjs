@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "sinon"
+    "test": "mocha"
   },
   "author": "David Vaquero <pepesan@gmail.com>",
   "license": "GPL-3.0-or-later",

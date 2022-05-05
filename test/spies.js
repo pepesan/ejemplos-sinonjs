@@ -43,6 +43,7 @@ describe('myFunction', function() {
         myFunction(true, callback);
 
         assert(callback.calledOnce);
+        callback.restore();
     });
 });
 
